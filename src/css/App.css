@@ -1,0 +1,111 @@
+.App {
+
+}
+.App-header {
+  background: #80DEEA;
+  height: 700px;
+  padding: 20px;
+  color: white;
+  text-align: left;
+}
+
+.header {
+  position: fixed;
+  z-index: 12;
+}
+
+.header a {
+  font-size: 30pt;
+}
+
+.pointer img {
+  margin-top: 50px;
+  transform: rotate(-4deg);
+  margin-left: -52px;
+}
+
+.title p {
+  font-size: 48pt;
+  text-align: center;
+}
+
+.title code {
+  margin-left: 200px;
+  font-size: 24pt;
+}
+
+.scoll_down {
+  margin: 120px auto;
+  font-size: 22pt;
+  border: 1px solid #fff;
+  width: 20px;
+  font-family: fantasy;
+  height: 10px;
+  padding: 20px 10px;
+  line-height: 20px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.scroll_down:hover {
+  height: 12px;
+  width: 22px;
+  line-height: 22px;
+}
+
+.App-section-1 {
+  padding: 20px;
+  height: 850px;
+  box-shadow: 0 2px 18px #000;
+}
+
+.App-section-1 p {
+  font-size: 28pt;
+  font-family: fantasy;
+  margin-left: 100px;
+}
+
+.App-section-1 article {
+  max-width: 1000px;
+  text-align: center;
+  width: 100%;
+  margin: 0 110px 30px;
+  font-family: Tahoma;
+  border-bottom: 1px solid #ECEFF1;
+  padding-bottom: 40px;
+  color: #9E9E9E;
+}
+
+.App-section-1 a {
+  text-decoration: none;
+  color: #00B8D4;
+}
+
+.blog_posts {
+  height: 400px;
+}
+
+.blog_posts h1 {
+  font-size: 28pt;
+  font-family: fantasy;
+  margin-left: 100px;
+}
+
+.experience {
+  display: flex;
+  margin-left: 100px;
+}
+
+.Drawer__button {
+  float: right;
+  margin: 12px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.footer {
+  position: relative;
+  bottom: -25px;
+}
