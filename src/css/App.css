@@ -14,12 +14,18 @@
   z-index: 12;
 }
 
+.header {
+  background: #80DEEA;
+  padding: 0 5px 0 10px;
+  margin-left: -20px;
+}
+
 .header a {
   font-size: 30pt;
 }
 
 .pointer img {
-  margin-top: 50px;
+  margin-top: 55px;
   transform: rotate(-4deg);
   margin-left: -52px;
 }
