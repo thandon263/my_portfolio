@@ -26,9 +26,10 @@ export default class Header extends Component {
           </a>
           <Drawer width={200} openSecondary={true} open={this.state.open}>
             <AppBar title="More Info." />
-            <MenuItem>Home</MenuItem>
+            <MenuItem onClick={this.handleToggle}>Home</MenuItem>
             <MenuItem>Contact</MenuItem>
-            <MenuItem>Hire Me.</MenuItem>
+            <MenuItem href="http://breakable-temper.surge.sh/" target="_blank">Tesla Battery Calculator</MenuItem>
+            <MenuItem onClick={() => prompt("Enter email to Subscribe!")}>Subscribe (Newsletter)</MenuItem>
           </Drawer>
         </div>
       );

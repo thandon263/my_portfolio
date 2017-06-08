@@ -1,8 +1,4 @@
 import React from 'react';
-import AppBar from 'material-ui/AppBar';
-import IconButton from 'material-ui/IconButton';
-import NavigationClose from 'material-ui/svg-icons/navigation/close';
-import FlatButton from 'material-ui/FlatButton';
 
 function handleTouchTap() {
   alert('onTouchTap triggered on the title component');
@@ -19,10 +15,9 @@ const styles = {
  * through the `onTouchTap` property, and a [FlatButton](/#/components/flat-button) on the right.
  */
 const Footer = () => (
-  <AppBar
-    title={'All Rights Reserved | Thando Ncube'}
-    iconElementRight={<FlatButton label="For React Developers" />}
-  />
+  <div>
+    <p>&copy; All Rights Reserved | 2017</p>
+  </div>
 );
 
 export default Footer;

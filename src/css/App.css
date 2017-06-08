@@ -108,4 +108,13 @@
 .footer {
   position: relative;
   bottom: -25px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #00B8D4;
+}
+
+.footer p {
+  text-align: center;
+  margin-left: 500px;
+  line-height: inherit;
 }
