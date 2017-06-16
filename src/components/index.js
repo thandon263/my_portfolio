@@ -2,7 +2,7 @@ import React from 'react'
 
 // Components import from './Components' directory
 import Header from './header'
-import Experience from './Experience'
+import Experience from './experience'
 import Recent_blogs from './recent_blog'
 import Footer from './footer'
 
